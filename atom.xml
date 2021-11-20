@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>我的博客</title>
+  
+  <subtitle>Welcome to my world!!!</subtitle>
+  <link href="http://alaningby.github.io/project/atom.xml" rel="self"/>
+  
+  <link href="http://alaningby.github.io/project/"/>
+  <updated>2021-11-20T03:09:19.752Z</updated>
+  <id>http://alaningby.github.io/project/</id>
+  
+  <author>
+    <name>HZP</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>sql</title>
+    <link href="http://alaningby.github.io/project/2021/11/20/sql/"/>
+    <id>http://alaningby.github.io/project/2021/11/20/sql/</id>
+    <published>2021-11-20T03:08:59.000Z</published>
+    <updated>2021-11-20T03:09:19.752Z</updated>
+    
+    <content type="html"><![CDATA[<p>SQL注入原理<br>SQL注入攻击是通过将恶意的SQL查询或添加语句插入到应用的输入参数中，再在后台SQL服务器上解析执行进行的攻击，它目前是黑客对数据库进行攻击的最常用的手段之一。</p><p>SQL注入点<br>注入点可分为两大类: 数字型 和 字符型 </p><p>其中字符型又可以细分为 单引号字符型 , 双引号字符型 , 单/双引号+括号的字符型</p><p>数字型注入</p><p>SQL语句拼接参数时 , 直接拼接参数本身 , 格式如下</p><p>SELECT * FROM users WHERE id=$id<br>字符型注入</p><p>SQL语句拼接参数时 , 对参数包裹了单引号,双引号,或括号</p><p>单引号字符型 : 参数包裹了单引号 , 格式如下</p><p>SELECT * FROM users WHERE id=’$id’<br> 单引号+括号字符型 : 参数包裹了单引号和括号 , 格式如下</p><p>SELECT * FROM users WHERE id=(‘$id’)<br>双引号+括号字符型 : 参数包裹了双引号和括号 , 格式如下</p><p>$id = ‘“‘ . $id . ‘“‘;<br>SELECT * FROM users WHERE id=($id)<br> 字符型注入并非只有这三种 , SQL语句中可以将单引号,双引号,括号自由拼接</p><p>报错注入<br>把我们想要的内容以报错的的形式展示出来 。<br>函数：<br>1.extractvalue(目标xml文档，xml路径)<br>！路径不能出现非法路径，否则会报错！<br>select extractvalue(1,0x7e) 0x7e十六进制是‘<del>’<br>只要让他去报错就行。<br>2.concat():将多个字符串连接成一个字符串<br>语法：concat（str1,str2,…）<br>select contact(‘</del>‘,(select database()))</p><p>select extractvalue(1,concat(1,select datebase()))</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;SQL注入原理&lt;br&gt;SQL注入攻击是通过将恶意的SQL查询或添加语句插入到应用的输入参数中，再在后台SQL服务器上解析执行进行的攻击，它目前是黑客对数据库进行攻击的最常用的手段之一。&lt;/p&gt;
+&lt;p&gt;SQL注入点&lt;br&gt;注入点可分为两大类: 数字型 和 字符型 &lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>基本的Dos命令</title>
+    <link href="http://alaningby.github.io/project/2021/10/31/%E5%9F%BA%E6%9C%AC%E7%9A%84Dos%E5%91%BD%E4%BB%A4/"/>
+    <id>http://alaningby.github.io/project/2021/10/31/%E5%9F%BA%E6%9C%AC%E7%9A%84Dos%E5%91%BD%E4%BB%A4/</id>
+    <published>2021-10-31T14:02:09.000Z</published>
+    <updated>2021-10-31T14:04:05.256Z</updated>
+    
+    <content type="html"><![CDATA[<p>基本的DOS命令（磁盘操作系统）<br>1.|（空格）more  #将文件翻页显示 按空格翻页。<br>2.type 文件名.扩展名 | more 查看命令<br>3.dir c:\windows | more #查看c盘window目录下有什么文件。<br>4.echo创建文件<br>5.copy con(屏幕) qingshu.txt<br>../内容<br>CTRL+Z回车 结束命令<br>6.del 文件名.扩展名 #删除文件<br>7.del *.txt #删除.txt所有文件<br>  del <em>.</em> #删除所有文件<br> /s /q递增删除 逐级删除<br>8.md 文件名 #创建文件夹<br>9.attrib +h 文件名 #隐藏文件夹h(h hide)<br>   attrib -h 文件名 #取消隐藏<br>   attrib +h +s +a #<br>10.dir /a 文件名 #浏览所有文件  dir也行<br>11.fsutill file creatnew d:\system.ini 230040304 #在d盘目录下快速创建一个230040304字节的 system.ini文件<br>12.assoc .txt=exefile #修改关联性 将.txt文件修改为 .exe文件<br>    assoc .txt=txtfile #修改回原来的关联性<br>13.shutdown -s -t 100 #100s后关机 定时关机<br>     shutdown -s -f -t 时间 -c “字符” #定时强制关机-c输入提示<br>     shutdown -r -t 时间 #定时重启，同时加-f，为强制关机<br>     shutdown -l #注销，通logoft命令相同<br>     shutdown -a#取消一切计时<br>14.copy .txt<br>15.ren 旧名. 新名 #重命名<br>16.d: #从c盘进入d盘<br>    cd a#从当前目录下进入a文件夹</p><pre><code> cd D:\文件名 \ 文件名 #指定去具体的文件下。</code></pre><p>copy haha.txt ..\b<br>百度：<br>将当前目录下的 1.txt 这个文件复制到 bak 目录下，并且更名为 a.txt，就输入 copy 1.txt bak\a.txt<br>将当前目录下的 1.txt 文件复制到 bak 目录下，就输入 copy 1.txt bak\</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;基本的DOS命令（磁盘操作系统）&lt;br&gt;1.|（空格）more  #将文件翻页显示 按空格翻页。&lt;br&gt;2.type 文件名.扩展名 | more 查看命令&lt;br&gt;3.dir c:\windows | more #查看c盘window目录下有什么文件。&lt;br&gt;4.echo创</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ip地址 dns初了解</title>
+    <link href="http://alaningby.github.io/project/2021/10/28/ip%E5%9C%B0%E5%9D%80-dns%E5%88%9D%E4%BA%86%E8%A7%A3/"/>
+    <id>http://alaningby.github.io/project/2021/10/28/ip%E5%9C%B0%E5%9D%80-dns%E5%88%9D%E4%BA%86%E8%A7%A3/</id>
+    <published>2021-10-28T04:09:30.000Z</published>
+    <updated>2021-10-28T04:10:25.344Z</updated>
+    
+    <content type="html"><![CDATA[<p>测试网络连通性（测试对方网络是否在线）<br>ping 目标ip地址          #测试网络连通性，有去有回可以成功通信！<br>ping -t 目标ip地址      #一直ping<br>ping -n 数字 目标Ip地址 #修改ping包的数量<br>ping -l 数字  #修改ping包的大小<br>以上ping后有空格<br>ps：如果ping不通，不一定是网络问题，可能是对方不在线，或者对方开着防火墙。</p><p>nslookup <a href="http://www.jd.com/">www.jd.com</a> #查新域名对应的ip地址<br>nslookup -qt=ns <a href="http://www.xxxx.com/">www.XXXX.com</a> #查询域名使用的是哪一家DNS服务器<br>命令：ipconfig #查看ip基本信息<br>ipconfig  /all #可以看到所有详细信息（DNS）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;测试网络连通性（测试对方网络是否在线）&lt;br&gt;ping 目标ip地址          #测试网络连通性，有去有回可以成功通信！&lt;br&gt;ping -t 目标ip地址      #一直ping&lt;br&gt;ping -n 数字 目标Ip地址 #修改ping包的数量&lt;br&gt;ping </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>常用的Hexo指令</title>
+    <link href="http://alaningby.github.io/project/2021/10/22/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://alaningby.github.io/project/2021/10/22/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
+    <published>2021-10-22T03:55:02.000Z</published>
+    <updated>2021-10-22T04:04:50.126Z</updated>
+    
+    <content type="html"><![CDATA[<p>hexo安装<br>1 npm install hexo -g #安装<br>2 npm update hexo -g #升级<br>3 hexo init #初始化<br>简写<br>1 hexo n “我的博客” == hexo new “我的博客” #新建文章<br>2 hexo p == hexo publish<br>3 hexo g == hexo generate#生成<br>4 hexo s == hexo server #启动服务预览<br>5 hexo d == hexo deploy#部署<br>服务器</p><p>复制代码<br>1 hexo server #Hexo 会监视文件变动并自动更新，】无须重启服务器。<br>2 hexo server -s #静态模式<br>3 hexo server -p 5000 #更改端口<br>4 hexo server -i 192.168.1.1 #自定义 IP<br>5 hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>6 hexo g #生成静态网页<br>7 hexo d #开始部署<br>复制代码<br>监视文件变动<br>1 hexo generate #使用 Hexo 生成静态文件快速而且简单<br>2 hexo generate –watch #监视文件变动<br>完成后部署<br>1 # 两个命令的作用是相同的<br>2 hexo generate –deploy<br>3 hexo deploy –generate<br>4 hexo deploy -g<br>5 hexo server -g</p><p>复制代码<br>1 hexo new “postName” #新建文章，注意要带双引号！！！！！<br>2 hexo new page “pageName” #新建页面<br>3 hexo generate #生成静态页面至public目录<br>4 hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>5 hexo deploy #将.deploy目录部署到GitHub<br>6 hexo new [layout] <title>;<br>7 hexo new photo “My Gallery”<br>8 hexo new “Hello World” –lang tw<br>复制代码</p><p>图片<br>复制代码<br>1 title: 使用Hexo搭建个人博客<br>2 layout: post<br>3 date: 2016-12-21 19:07:43<br>4 comments: true<br>5 categories: Blog<br>6 tags: [Hexo]<br>7 keywords: Hexo, Blog<br>8 description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。<br>推送到服务器上<br>1 hexo n #写文章<br>2 hexo g #生成<br>3 hexo d #部署 #可与hexo g合并为 hexo d -g</p><p>1 npm install hexo-generator-feed –save<br>开启RSS功能 </p><p>编辑hexo/_config.yml，添加如下代码：</p><p>1 rss: /atom.xml #rss地址 默认即可</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;hexo安装&lt;br&gt;1 npm install hexo -g #安装&lt;br&gt;2 npm update hexo -g #升级&lt;br&gt;3 hexo init #初始化&lt;br&gt;简写&lt;br&gt;1 hexo n “我的博客” == hexo new “我的博客” #新建文章&lt;br&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://alaningby.github.io/project/2021/10/22/hello-world/"/>
+    <id>http://alaningby.github.io/project/2021/10/22/hello-world/</id>
+    <published>2021-10-21T16:57:30.531Z</published>
+    <updated>2021-10-21T16:57:30.531Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><div class="story post-story"><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
