@@ -204,7 +204,6 @@
 <p>报错注入<br>把我们想要的内容以报错的的形式展示出来 。<br>函数：<br>1.extractvalue(目标xml文档，xml路径)<br>！路径不能出现非法路径，否则会报错！<br>select extractvalue(1,0x7e) 0x7e十六进制是‘<del>’<br>只要让他去报错就行。<br>2.concat():将多个字符串连接成一个字符串<br>语法：concat（str1,str2,…）<br>select contact(‘</del>‘,(select database()))</p>
 <p>select extractvalue(1,concat(1,select datebase()))</p>
 
-
     </div>
 
     
