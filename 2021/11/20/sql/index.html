@@ -20,7 +20,7 @@
   <meta content="我的博客" name="apple-mobile-web-app-title">
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
   <meta content="telephone=no" name="format-detection">
-  <link rel="preload" href="/project/css/style.css?time=1637504353551" as="style">
+  <link rel="preload" href="/project/css/style.css?time=1637504571021" as="style">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
@@ -1659,8 +1659,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/project/css/style.css?time=1637504353551" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/project/css/style.css?time=1637504353551"></noscript>
+  <link rel="stylesheet" href="/project/css/style.css?time=1637504571021" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/project/css/style.css?time=1637504571021"></noscript>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -2501,6 +2501,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <p>报错注入<br>把我们想要的内容以报错的的形式展示出来 。<br>函数：<br>1.extractvalue(目标xml文档，xml路径)<br>！路径不能出现非法路径，否则会报错！<br>select extractvalue(1,0x7e) 0x7e十六进制是‘<del>’<br>只要让他去报错就行。<br>2.concat():将多个字符串连接成一个字符串<br>语法：concat（str1,str2,…）<br>select contact(‘</del>‘,(select database()))</p>
 <p>select extractvalue(1,concat(1,select datebase()))</p>
 
+
   </div>
   
   
@@ -2822,8 +2823,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <script>
   volantis.message = (title, message, option = {}, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/project/css/message.css?time=1637504353551')
-      volantis.js('/project/js/message.js?time=1637504353551', () => {
+      volantis.css('/project/css/message.css?time=1637504571020')
+      volantis.js('/project/js/message.js?time=1637504571020', () => {
         tozashMessage(title, message, option, done);
       });
     } else {
@@ -2868,8 +2869,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.question = (title, message, option = {}, success = null, cancel = null, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/project/css/message.css?time=1637504353551')
-      volantis.js('/project/js/message.js?time=1637504353551', () => {
+      volantis.css('/project/css/message.css?time=1637504571020')
+      volantis.js('/project/js/message.js?time=1637504571020', () => {
         tozashQuestion(title, message, option, success, cancel, done);
       });
     } else {
@@ -2928,8 +2929,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     }
     
     if (typeof iziToast === "undefined") {
-      volantis.css('/project/css/message.css?time=1637504353551')
-      volantis.js('/project/js/message.js?time=1637504353551', () => {
+      volantis.css('/project/css/message.css?time=1637504571020')
+      volantis.js('/project/js/message.js?time=1637504571020', () => {
         hideMessage(done);
       });
     } else {
@@ -3161,7 +3162,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       volantis.APlayerController = {};
     
-    volantis.js('/project/js/rightMenu.js?time=1637504353551')
+    volantis.js('/project/js/rightMenu.js?time=1637504571020')
   </script>
 
 
@@ -3175,19 +3176,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/project/js/plugins/sites.js?time=1637504353551")
+        volantis.js("/project/js/plugins/sites.js?time=1637504571020")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/project/js/plugins/friends.js?time=1637504353551")
+        volantis.js("/project/js/plugins/friends.js?time=1637504571020")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/project/js/plugins/contributors.js?time=1637504353551")
+        volantis.js("/project/js/plugins/contributors.js?time=1637504571020")
       }
     
   };
@@ -3297,7 +3298,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-<script src="/project/project/js/app.js?time=1637504353551.js"></script>
+<script src="/project/project/js/app.js?time=1637504571020.js"></script>
 
 
 <!-- optional -->
@@ -3310,7 +3311,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/project/js/search/hexo.js?time=1637504353551");
+    return volantis.js("/project/js/search/hexo.js?time=1637504571020");
   }
 
   function loadSearchService() {
