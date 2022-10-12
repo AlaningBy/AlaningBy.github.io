@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>python笔记</title>
+      <link href="/2022/10/13/python/"/>
+      <url>/2022/10/13/python/</url>
+      
+        <content type="html"><![CDATA[<p>在vscode使用jieba函数库的时候出现以下代码，但是可以正常剪切<br>Building prefix dict from the default dictionary …<br>Loading model from cache C:\Users\ALANIN~1\AppData\Local\Temp\jieba.cache<br>Loading model cost 0.445 seconds.<br>Prefix dict has been built successfully.</p><p>需要在下面添加一行代码组织上面的代码出现<br>import jieba<br>jieba.setLogLevel(jieba.logging.INFO)</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> -python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>tags测试</title>
       <link href="/2022/08/24/tags/"/>
       <url>/2022/08/24/tags/</url>
@@ -113,13 +132,19 @@
     
     
     <entry>
-      <title>sql</title>
+      <title>sql随机</title>
       <link href="/2021/11/20/sql/"/>
       <url>/2021/11/20/sql/</url>
       
         <content type="html"><![CDATA[<p>SQL注入原理<br>SQL注入攻击是通过将恶意的SQL查询或添加语句插入到应用的输入参数中，再在后台SQL服务器上解析执行进行的攻击，它目前是黑客对数据库进行攻击的最常用的手段之一。</p><p>SQL注入点<br>注入点可分为两大类: 数字型 和 字符型 </p><p>其中字符型又可以细分为 单引号字符型 , 双引号字符型 , 单&#x2F;双引号+括号的字符型</p><p>数字型注入</p><p>SQL语句拼接参数时 , 直接拼接参数本身 , 格式如下</p><p>SELECT * FROM users WHERE id&#x3D;$id<br>字符型注入</p><p>SQL语句拼接参数时 , 对参数包裹了单引号,双引号,或括号</p><p>单引号字符型 : 参数包裹了单引号 , 格式如下</p><p>SELECT * FROM users WHERE id&#x3D;’$id’<br> 单引号+括号字符型 : 参数包裹了单引号和括号 , 格式如下</p><p>SELECT * FROM users WHERE id&#x3D;(‘$id’)<br>双引号+括号字符型 : 参数包裹了双引号和括号 , 格式如下</p><p>$id &#x3D; ‘“‘ . $id . ‘“‘;<br>SELECT * FROM users WHERE id&#x3D;($id)<br> 字符型注入并非只有这三种 , SQL语句中可以将单引号,双引号,括号自由拼接</p><p>报错注入<br>把我们想要的内容以报错的的形式展示出来 。<br>函数：<br>1.extractvalue(目标xml文档，xml路径)<br>！路径不能出现非法路径，否则会报错！<br>select extractvalue(1,0x7e) 0x7e十六进制是‘<del>’<br>只要让他去报错就行。<br>2.concat():将多个字符串连接成一个字符串<br>语法：concat（str1,str2,…）<br>select contact(‘</del>‘,(select database()))</p><p>select extractvalue(1,concat(1,select datebase()))</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> -sql </tag>
+            
+        </tags>
       
     </entry>
     
