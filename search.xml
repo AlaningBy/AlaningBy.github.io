@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Linux_Ubuntu(乌班图)虚拟机安装教程</title>
+      <link href="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+      <url>/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-百度搜索Ubuntu镜像，选择北京理工大学镜像"><a href="#1-百度搜索Ubuntu镜像，选择北京理工大学镜像" class="headerlink" title="1.百度搜索Ubuntu镜像，选择北京理工大学镜像"></a>1.百度搜索Ubuntu镜像，选择北京理工大学镜像</h3><p>（<a href="https://zhuanlan.zhihu.com/p/159642755">Ubuntu镜像下载地址 - 知乎 (zhihu.com)</a>）</p><p><img src="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/1.png" alt="BP"></p><h3 id="2-选择框选的版本下载"><a href="#2-选择框选的版本下载" class="headerlink" title="2.选择框选的版本下载"></a>2.选择框选的版本下载</h3><p><img src="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/10.png" alt="BP"></p><h2 id="！以上是iso的准备教程，以下是在Vmare-workstation16-pro中操作"><a href="#！以上是iso的准备教程，以下是在Vmare-workstation16-pro中操作" class="headerlink" title="！以上是iso的准备教程，以下是在Vmare workstation16 pro中操作"></a>！以上是iso的准备教程，以下是在Vmare workstation16 pro中操作</h2><h3 id="1-进入vmare选择高级安装"><a href="#1-进入vmare选择高级安装" class="headerlink" title="1.进入vmare选择高级安装"></a>1.进入vmare选择高级安装</h3><img src="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20221018120406076.png" alt="BP" style="zoom:80%;"><h3 id="2、下一步"><a href="#2、下一步" class="headerlink" title="2、下一步"></a>2、下一步</h3><p><img src="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20221018120429057.png" alt="BP"></p><p><img src="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20221018120500858.png" alt="BP"></p><p><img src="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20221018120500858.png" alt="BP"></p><p><img src="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20221018120613105.png" alt="BP"></p><p><img src="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20221018120650601.png" alt="BP"></p><p><img src="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20221018120746210.png" alt="BP"></p><p>注意：若安装时卡在黑色界面就近行如下操作：</p><h3 id="1、关闭虚拟机，在左上角选择”打开电源时进入固件“"><a href="#1、关闭虚拟机，在左上角选择”打开电源时进入固件“" class="headerlink" title="1、关闭虚拟机，在左上角选择”打开电源时进入固件“"></a>1、关闭虚拟机，在左上角选择”打开电源时进入固件“</h3><p><img src="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20221018121024504.png" alt="BP"></p><h3 id="2、按左键-选择”Boot“"><a href="#2、按左键-选择”Boot“" class="headerlink" title="2、按左键 选择”Boot“"></a>2、按左键 选择”Boot“</h3><p><img src="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20221018121121578.png" alt="BP"></p><h3 id="3、把”Hard-Drive”放在第一位，关机重启"><a href="#3、把”Hard-Drive”放在第一位，关机重启" class="headerlink" title="3、把”Hard Drive”放在第一位，关机重启"></a>3、把”Hard Drive”放在第一位，关机重启</h3><p><img src="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20221018121156701.png" alt="BP"></p><h3 id="4、成功进入界面！"><a href="#4、成功进入界面！" class="headerlink" title="4、成功进入界面！"></a><a href>4</a>、成功进入界面！</h3><p><img src="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-20221018000531116.png" alt="BP"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -虚拟机 -Ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo搭配typora写博客上传图片</title>
       <link href="/2022/10/18/hexo%E6%90%AD%E9%85%8Dtypora%E5%86%99%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/"/>
       <url>/2022/10/18/hexo%E6%90%AD%E9%85%8Dtypora%E5%86%99%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/</url>
@@ -21,38 +46,6 @@
         <tags>
             
             <tag> -hexo -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2022/10/18/6/"/>
-      <url>/2022/10/18/6/</url>
-      
-        <content type="html"><![CDATA[<h3 id="1-百度搜索Ubuntu镜像，选择北京理工大学镜像"><a href="#1-百度搜索Ubuntu镜像，选择北京理工大学镜像" class="headerlink" title="1.百度搜索Ubuntu镜像，选择北京理工大学镜像"></a>1.百度搜索Ubuntu镜像，选择北京理工大学镜像</h3><h3 id="Ubuntu镜像下载地址-知乎-zhihu-com-https-zhuanlan-zhihu-com-p-159642755"><a href="#Ubuntu镜像下载地址-知乎-zhihu-com-https-zhuanlan-zhihu-com-p-159642755" class="headerlink" title="Ubuntu镜像下载地址 - 知乎 (zhihu.com)https://zhuanlan.zhihu.com/p/159642755"></a><a href="https://zhuanlan.zhihu.com/p/159642755">Ubuntu镜像下载地址 - 知乎 (zhihu.com)<img src="https://csdnimg.cn/release/blog_editor_html/release2.2.0/ckeditor/plugins/CsdnLink/icons/icon-default.png?t=M85B" alt=" ">https://zhuanlan.zhihu.com/p/159642755</a></h3><h3 id="编辑"><a href="#编辑" class="headerlink" title="编辑"></a><img src="https://img-blog.csdnimg.cn/a4f54caa4979415aa821a3c6a0e44b39.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</h3><h3 id="2-选择框选的版本下载"><a href="#2-选择框选的版本下载" class="headerlink" title="2.选择框选的版本下载"></a>2.选择框选的版本下载</h3><h3 id="3-进入vmare选择高级安装"><a href="#3-进入vmare选择高级安装" class="headerlink" title="3.进入vmare选择高级安装"></a>3.进入vmare选择高级安装</h3><p>安装完成后重启</p><p>若一直卡在黑色界面：在vmare上选择</p><p>进入boot</p><p>根据提示把Hard Drive放在第一位即可</p><p>进入Ubun操作系统</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Linux-Ubuntu下载及激活</title>
-      <link href="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/"/>
-      <url>/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/</url>
-      
-        <content type="html"><![CDATA[<h3 id="1-百度搜索Ubuntu镜像，选择北京理工大学镜像"><a href="#1-百度搜索Ubuntu镜像，选择北京理工大学镜像" class="headerlink" title="1.百度搜索Ubuntu镜像，选择北京理工大学镜像"></a>1.百度搜索Ubuntu镜像，选择北京理工大学镜像</h3><p>（<a href="https://zhuanlan.zhihu.com/p/159642755">Ubuntu镜像下载地址 - 知乎 (zhihu.com)</a>）</p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/../../../../../../test/1.png" alt="1"></p><h3 id="2-选择框选的版本下载"><a href="#2-选择框选的版本下载" class="headerlink" title="2.选择框选的版本下载"></a>2.选择框选的版本下载</h3><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120324927.png" alt="image-20221018120324927"></p><h3 id="3-进入vmare选择高级安装"><a href="#3-进入vmare选择高级安装" class="headerlink" title="3.进入vmare选择高级安装"></a>3.进入vmare选择高级安装</h3><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120406076.png" alt="image-20221018120406076"></p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120442185.png" alt="image-20221018120442185"></p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120500858.png" alt="image-20221018120500858"><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120535733.png" alt="image-20221018120535733"></p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120632230.png" alt="image-20221018120632230"></p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120650601.png" alt="image-20221018120650601"></p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120746210.png" alt="image-20221018120746210"></p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221017233216137.png" alt="image-20221017233216137"></p><p>安装完成后重启</p><p>若一直卡在黑色界面：在vmare上选择</p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018121024504.png" alt="image-20221018121024504"></p><p>进入boot</p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018121121578.png" alt="image-20221018121121578"></p><p>根据提示把Hard Drive放在第一位即可</p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018121156701.png" alt="image-20221018121156701"></p><p>进入Ubun操作系统</p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018121311275.png" alt="image-20221018121311275"></p><p>参考视频：</p><iframe src="//player.bilibili.com/player.html?aid=809425090&bvid=BV1W34y1k7ge&cid=519523083&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> -虚拟机 -Ubuntu </tag>
             
         </tags>
       
