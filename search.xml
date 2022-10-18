@@ -4,11 +4,49 @@
   
     
     <entry>
+      <title>hexo搭配typora写博客上传图片</title>
+      <link href="/2022/10/18/hexo%E6%90%AD%E9%85%8Dtypora%E5%86%99%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/"/>
+      <url>/2022/10/18/hexo%E6%90%AD%E9%85%8Dtypora%E5%86%99%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/</url>
+      
+        <content type="html"><![CDATA[<p> 一、到博客的根目录下执行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install [https://github.com/CodeFalling/hexo-asset-image]--save </span><br></pre></td></tr></table></figure><p>命令来进行插件的安装。</p><p>二、到博客根目录下查看_config.yml 文件将post_asset_folder 设置为true </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder:true</span><br></pre></td></tr></table></figure><p>三、在博客跟目录下生成文章</p><p>​</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;XXXX&quot;</span><br></pre></td></tr></table></figure><p><img src="/2022/10/18/hexo%E6%90%AD%E9%85%8Dtypora%E5%86%99%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/1.png" alt="BP"></p><p>此时会看到同时生成了.md文件和同名的文件夹，文件夹内就存放博客所需的本地图片</p><p><img src="/2022/10/18/hexo%E6%90%AD%E9%85%8Dtypora%E5%86%99%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/3.png" alt="BP"></p><p><img src="/2022/10/18/hexo%E6%90%AD%E9%85%8Dtypora%E5%86%99%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/2.png" alt="BP"></p><p>四、图片书写格式如下</p><p><img src="/2022/10/18/hexo%E6%90%AD%E9%85%8Dtypora%E5%86%99%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/4.png" alt="BP"></p><p>五、最后hexo g ,hexo s本地预览，确认无误后hxeo d上传。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -hexo -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/10/18/6/"/>
+      <url>/2022/10/18/6/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-百度搜索Ubuntu镜像，选择北京理工大学镜像"><a href="#1-百度搜索Ubuntu镜像，选择北京理工大学镜像" class="headerlink" title="1.百度搜索Ubuntu镜像，选择北京理工大学镜像"></a>1.百度搜索Ubuntu镜像，选择北京理工大学镜像</h3><h3 id="Ubuntu镜像下载地址-知乎-zhihu-com-https-zhuanlan-zhihu-com-p-159642755"><a href="#Ubuntu镜像下载地址-知乎-zhihu-com-https-zhuanlan-zhihu-com-p-159642755" class="headerlink" title="Ubuntu镜像下载地址 - 知乎 (zhihu.com)https://zhuanlan.zhihu.com/p/159642755"></a><a href="https://zhuanlan.zhihu.com/p/159642755">Ubuntu镜像下载地址 - 知乎 (zhihu.com)<img src="https://csdnimg.cn/release/blog_editor_html/release2.2.0/ckeditor/plugins/CsdnLink/icons/icon-default.png?t=M85B" alt=" ">https://zhuanlan.zhihu.com/p/159642755</a></h3><h3 id="编辑"><a href="#编辑" class="headerlink" title="编辑"></a><img src="https://img-blog.csdnimg.cn/a4f54caa4979415aa821a3c6a0e44b39.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</h3><h3 id="2-选择框选的版本下载"><a href="#2-选择框选的版本下载" class="headerlink" title="2.选择框选的版本下载"></a>2.选择框选的版本下载</h3><h3 id="3-进入vmare选择高级安装"><a href="#3-进入vmare选择高级安装" class="headerlink" title="3.进入vmare选择高级安装"></a>3.进入vmare选择高级安装</h3><p>安装完成后重启</p><p>若一直卡在黑色界面：在vmare上选择</p><p>进入boot</p><p>根据提示把Hard Drive放在第一位即可</p><p>进入Ubun操作系统</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux-Ubuntu下载及激活</title>
       <link href="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/"/>
       <url>/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/</url>
       
-        <content type="html"><![CDATA[<h3 id="1-百度搜索Ubuntu镜像，选择北京理工大学镜像"><a href="#1-百度搜索Ubuntu镜像，选择北京理工大学镜像" class="headerlink" title="1.百度搜索Ubuntu镜像，选择北京理工大学镜像"></a>1.百度搜索Ubuntu镜像，选择北京理工大学镜像</h3><p>（<a href="https://zhuanlan.zhihu.com/p/159642755">Ubuntu镜像下载地址 - 知乎 (zhihu.com)</a>）</p><p><img src="C:\Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221017232850317.png" alt="image-20221017232850317"></p><h3 id="2-选择框选的版本下载"><a href="#2-选择框选的版本下载" class="headerlink" title="2.选择框选的版本下载"></a>2.选择框选的版本下载</h3><p><img src="C:\Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221017232952230.png" alt="image-20221017232952230"></p><h3 id="3-进入vmare选择高级安装"><a href="#3-进入vmare选择高级安装" class="headerlink" title="3.进入vmare选择高级安装"></a>3.进入vmare选择高级安装</h3><p>​选择ISO如图：</p><p><img src="C:\Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221017233802697.png" alt="image-20221017233802697"></p><p>​处理器数量2个</p><p>​每个处理器2各任务</p><p><img src="C:\Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221017233216137.png" alt="image-20221017233216137"></p><p>安装完成后重启</p><p>参考视频：</p><iframe src="//player.bilibili.com/player.html?aid=809425090&bvid=BV1W34y1k7ge&cid=519523083&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+        <content type="html"><![CDATA[<h3 id="1-百度搜索Ubuntu镜像，选择北京理工大学镜像"><a href="#1-百度搜索Ubuntu镜像，选择北京理工大学镜像" class="headerlink" title="1.百度搜索Ubuntu镜像，选择北京理工大学镜像"></a>1.百度搜索Ubuntu镜像，选择北京理工大学镜像</h3><p>（<a href="https://zhuanlan.zhihu.com/p/159642755">Ubuntu镜像下载地址 - 知乎 (zhihu.com)</a>）</p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/../../../../../../test/1.png" alt="1"></p><h3 id="2-选择框选的版本下载"><a href="#2-选择框选的版本下载" class="headerlink" title="2.选择框选的版本下载"></a>2.选择框选的版本下载</h3><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120324927.png" alt="image-20221018120324927"></p><h3 id="3-进入vmare选择高级安装"><a href="#3-进入vmare选择高级安装" class="headerlink" title="3.进入vmare选择高级安装"></a>3.进入vmare选择高级安装</h3><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120406076.png" alt="image-20221018120406076"></p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120442185.png" alt="image-20221018120442185"></p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120500858.png" alt="image-20221018120500858"><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120535733.png" alt="image-20221018120535733"></p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120632230.png" alt="image-20221018120632230"></p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120650601.png" alt="image-20221018120650601"></p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018120746210.png" alt="image-20221018120746210"></p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221017233216137.png" alt="image-20221017233216137"></p><p>安装完成后重启</p><p>若一直卡在黑色界面：在vmare上选择</p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018121024504.png" alt="image-20221018121024504"></p><p>进入boot</p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018121121578.png" alt="image-20221018121121578"></p><p>根据提示把Hard Drive放在第一位即可</p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018121156701.png" alt="image-20221018121156701"></p><p>进入Ubun操作系统</p><p><img src="/2022/10/17/Linux-Ubuntu%E4%B8%8B%E8%BD%BD%E5%8F%8A%E6%BF%80%E6%B4%BB/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20221018121311275.png" alt="image-20221018121311275"></p><p>参考视频：</p><iframe src="//player.bilibili.com/player.html?aid=809425090&bvid=BV1W34y1k7ge&cid=519523083&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
       
       
       
@@ -151,7 +189,7 @@
     
     
     <entry>
-      <title>sql随机</title>
+      <title>sql随记</title>
       <link href="/2021/11/20/sql/"/>
       <url>/2021/11/20/sql/</url>
       
@@ -213,7 +251,7 @@
       <link href="/2021/10/22/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
       <url>/2021/10/22/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<p>hexo安装<br>1 npm install hexo -g #安装<br>2 npm update hexo -g #升级<br>3 hexo init #初始化<br>简写<br>1 hexo n “我的博客” &#x3D;&#x3D; hexo new “我的博客” #新建文章<br>2 hexo p &#x3D;&#x3D; hexo publish<br>3 hexo g &#x3D;&#x3D; hexo generate#生成<br>4 hexo s &#x3D;&#x3D; hexo server #启动服务预览<br>5 hexo d &#x3D;&#x3D; hexo deploy#部署<br>服务器</p><p>复制代码<br>1 hexo server #Hexo 会监视文件变动并自动更新，】无须重启服务器。<br>2 hexo server -s #静态模式<br>3 hexo server -p 5000 #更改端口<br>4 hexo server -i 192.168.1.1 #自定义 IP<br>5 hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>6 hexo g #生成静态网页<br>7 hexo d #开始部署<br>复制代码<br>监视文件变动<br>1 hexo generate #使用 Hexo 生成静态文件快速而且简单<br>2 hexo generate –watch #监视文件变动<br>完成后部署<br>1 # 两个命令的作用是相同的<br>2 hexo generate –deploy<br>3 hexo deploy –generate<br>4 hexo deploy -g<br>5 hexo server -g</p><p>复制代码<br>1 hexo new “postName” #新建文章，注意要带双引号！！！！！<br>2 hexo new page “pageName” #新建页面<br>3 hexo generate #生成静态页面至public目录<br>4 hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>5 hexo deploy #将.deploy目录部署到GitHub<br>6 hexo new [layout] <title>;<br>7 hexo new photo “My Gallery”<br>8 hexo new “Hello World” –lang tw<br>复制代码</p><p>图片<br>复制代码<br>1 title: 使用Hexo搭建个人博客<br>2 layout: post<br>3 date: 2016-12-21 19:07:43<br>4 comments: true<br>5 categories: Blog<br>6 tags: [Hexo]<br>7 keywords: Hexo, Blog<br>8 description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。<br>推送到服务器上<br>1 hexo n #写文章<br>2 hexo g #生成<br>3 hexo d #部署 #可与hexo g合并为 hexo d -g</p><p>1 npm install hexo-generator-feed –save<br>开启RSS功能 </p><p>编辑hexo&#x2F;_config.yml，添加如下代码：</p><p>1 rss: &#x2F;atom.xml #rss地址 默认即可</p>]]></content>
+        <content type="html"><![CDATA[<p>hexo安装<br>1 npm install hexo -g #安装<br>2 npm update hexo -g #升级<br>3 hexo init #初始化<br>简写<br>1 hexo n “我的博客” &#x3D;&#x3D; hexo new “我的博客” #新建文章<br>2 hexo p &#x3D;&#x3D; hexo publish<br>3 hexo g &#x3D;&#x3D; hexo generate#生成<br>4 hexo s &#x3D;&#x3D; hexo server #启动服务预览<br>5 hexo d &#x3D;&#x3D; hexo deploy#部署<br>服务器</p><p>复制代码<br>1 hexo server #Hexo 会监视文件变动并自动更新，】无须重启服务器。<br>2 hexo server -s #静态模式<br>3 hexo server -p 5000 #更改端口<br>4 hexo server -i 192.168.1.1 #自定义 IP<br>5 hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>6 hexo g #生成静态网页<br>7 hexo d #开始部署<br>复制代码<br>监视文件变动<br>1 hexo generate #使用 Hexo 生成静态文件快速而且简单<br>2 hexo generate –watch #监视文件变动<br>完成后部署<br>1 # 两个命令的作用是相同的<br>2 hexo generate –deploy<br>3 hexo deploy –generate<br>4 hexo deploy -g<br>5 hexo server -g</p><p>复制代码<br>1 hexo new “postName” #新建文章，注意要带双引号！！！！！<br>2 hexo new page “pageName” #新建页面<br>3 hexo generate #生成静态页面至public目录<br>4 hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>5 hexo deploy #将.deploy目录部署到GitHub<br>6 hexo new [layout] <title>;<br>7 hexo new photo “My Gallery”<br>8 hexo new “Hello World” –lang tw<br>复制代码</title></p><p>图片<br>复制代码<br>1 title: 使用Hexo搭建个人博客<br>2 layout: post<br>3 date: 2016-12-21 19:07:43<br>4 comments: true<br>5 categories: Blog<br>6 tags: [Hexo]<br>7 keywords: Hexo, Blog<br>8 description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。<br>推送到服务器上<br>1 hexo n #写文章<br>2 hexo g #生成<br>3 hexo d #部署 #可与hexo g合并为 hexo d -g</p><p>1 npm install hexo-generator-feed –save<br>开启RSS功能 </p><p>编辑hexo&#x2F;_config.yml，添加如下代码：</p><p>1 rss: &#x2F;atom.xml #rss地址 默认即可</p>]]></content>
       
       
       
