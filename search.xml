@@ -5,8 +5,8 @@
     
     <entry>
       <title>在Ubuntu系统中安装VMwaretools</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2022/10/19/%E5%9C%A8Ubuntu%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85VMwaretools/"/>
+      <url>/2022/10/19/%E5%9C%A8Ubuntu%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85VMwaretools/</url>
       
         <content type="html"><![CDATA[<p>Ubuntu版本：16.04 LTS<br>VMware版本：16.2.4</p><h3 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h3><p>安装Vmware的好处：可以自定义分辨率，方便交互；可以和物理机方便传文件</p><h3 id="一、打开虚拟机，右击Ubuntu选项卡，点击安装VMware-tools-因为我的虚拟机已经安装，所以显示重新安装Vmware-Tools"><a href="#一、打开虚拟机，右击Ubuntu选项卡，点击安装VMware-tools-因为我的虚拟机已经安装，所以显示重新安装Vmware-Tools" class="headerlink" title="一、打开虚拟机，右击Ubuntu选项卡，点击安装VMware tools(因为我的虚拟机已经安装，所以显示重新安装Vmware Tools)"></a>一、打开虚拟机，右击Ubuntu选项卡，点击安装VMware tools(因为我的虚拟机已经安装，所以显示重新安装Vmware Tools)</h3><img src="/post/undefined.htm/屏幕截图 2022-10-19 203105.png" alt="屏幕截图 2022-10-19 203105" style="zoom:80%;"><h3 id="二、单击文件，在目录下出现VMware"><a href="#二、单击文件，在目录下出现VMware" class="headerlink" title="二、单击文件，在目录下出现VMware"></a>二、单击文件，在目录下出现VMware</h3><p><img src="/post/undefined.htm/QQ%E6%88%AA%E5%9B%BE20221019203412.png" alt="QQ截图20221019203412"></p><h3 id="三、右键，然后复制到Home文件夹下"><a href="#三、右键，然后复制到Home文件夹下" class="headerlink" title="三、右键，然后复制到Home文件夹下"></a>三、右键，然后复制到Home文件夹下</h3><img src="/post/undefined.htm/QQ截图20221019203614.png" alt="QQ截图20221019203614" style="zoom:80%;"><h3 id="四、在Home文件夹下右键复制过去的压缩包，点击”提取到此处“"><a href="#四、在Home文件夹下右键复制过去的压缩包，点击”提取到此处“" class="headerlink" title="四、在Home文件夹下右键复制过去的压缩包，点击”提取到此处“"></a>四、在Home文件夹下右键复制过去的压缩包，点击”提取到此处“</h3><img src="/post/undefined.htm/QQ截图20221019203821.png" alt="QQ截图20221019203821" style="zoom:80%;"><p>这时会出现.distrib文件</p><p><img src="/post/undefined.htm/QQ%E6%88%AA%E5%9B%BE20221019203835.png" alt="QQ截图20221019203835"></p><h3 id="五、双击进入，在空白处右键点击“在终端中打开”"><a href="#五、双击进入，在空白处右键点击“在终端中打开”" class="headerlink" title="五、双击进入，在空白处右键点击“在终端中打开”"></a>五、双击进入，在空白处右键点击“在终端中打开”</h3><img src="/post/undefined.htm/QQ截图20221019204129.png" alt="QQ截图20221019204129" style="zoom:80%;"><h3 id="六、输入："><a href="#六、输入：" class="headerlink" title="六、输入："></a>六、输入：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ./vmware-install.pl </span><br></pre></td></tr></table></figure><p>回车后根据提示输入密码</p><p><img src="/post/undefined.htm/QQ%E6%88%AA%E5%9B%BE20221019204525.png" alt="QQ截图20221019204525"></p><p>回车</p><p><img src="/post/undefined.htm/QQ%E6%88%AA%E5%9B%BE20221019204824.png" alt="QQ截图20221019204824"></p><p>在第一个光标的位置输入yes，</p><p>然后一直回车，</p><img src="/post/undefined.htm/QQ截图20221019204907.png" alt="QQ截图20221019204907" style="zoom:80%;"><p>直到出现下面的提示即可</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Enjoy，</span><br><span class="line">--the VMware team</span><br></pre></td></tr></table></figure><h3 id="七、完成"><a href="#七、完成" class="headerlink" title="七、完成"></a>七、完成</h3><p>​至此已经安装成功！</p><p>​验证，选项卡的 “安装VMware Tools”变成 “重新安装VMware” 啦！</p><img src="/post/undefined.htm/屏幕截图 2022-10-19 205152.png" alt="屏幕截图 2022-10-19 205152" style="zoom:80%;">]]></content>
       
@@ -24,8 +24,8 @@
     
     <entry>
       <title>Linux_Ubuntu(乌班图)虚拟机安装教程</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+      <url>/2022/10/18/Linux-Ubuntu-%E4%B9%8C%E7%8F%AD%E5%9B%BE-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
       
         <content type="html"><![CDATA[<h3 id="1-百度搜索Ubuntu镜像，选择北京理工大学镜像"><a href="#1-百度搜索Ubuntu镜像，选择北京理工大学镜像" class="headerlink" title="1.百度搜索Ubuntu镜像，选择北京理工大学镜像"></a>1.百度搜索Ubuntu镜像，选择北京理工大学镜像</h3><p>（<a href="https://zhuanlan.zhihu.com/p/159642755">Ubuntu镜像下载地址 - 知乎 (zhihu.com)</a>）</p><p><img src="/post/undefined.htm/1.png" alt="BP"></p><h3 id="2-选择框选的版本下载"><a href="#2-选择框选的版本下载" class="headerlink" title="2.选择框选的版本下载"></a>2.选择框选的版本下载</h3><p><img src="/post/undefined.htm/10.png" alt="BP"></p><h2 id="！以上是iso的准备教程，以下是在Vmare-workstation16-pro中操作"><a href="#！以上是iso的准备教程，以下是在Vmare-workstation16-pro中操作" class="headerlink" title="！以上是iso的准备教程，以下是在Vmare workstation16 pro中操作"></a>！以上是iso的准备教程，以下是在Vmare workstation16 pro中操作</h2><h3 id="1-进入vmare选择高级安装"><a href="#1-进入vmare选择高级安装" class="headerlink" title="1.进入vmare选择高级安装"></a>1.进入vmare选择高级安装</h3><img src="/post/undefined.htm/image-20221018120406076.png" alt="BP" style="zoom:80%;"><h3 id="2、下一步"><a href="#2、下一步" class="headerlink" title="2、下一步"></a>2、下一步</h3><p><img src="/post/undefined.htm/image-20221018120429057.png" alt="BP"></p><p><img src="/post/undefined.htm/image-20221018120500858.png" alt="BP"></p><p><img src="/post/undefined.htm/image-20221018120613105.png" alt="BP"></p><p><img src="/post/undefined.htm/image-20221018120650601.png" alt="BP"></p><p><img src="/post/undefined.htm/image-20221018120746210.png" alt="BP"></p><p>注意：若安装时卡在黑色界面就近行如下操作：</p><h3 id="1、关闭虚拟机，在左上角选择”打开电源时进入固件“"><a href="#1、关闭虚拟机，在左上角选择”打开电源时进入固件“" class="headerlink" title="1、关闭虚拟机，在左上角选择”打开电源时进入固件“"></a>1、关闭虚拟机，在左上角选择”打开电源时进入固件“</h3><p><img src="/post/undefined.htm/image-20221018121024504.png" alt="BP"></p><h3 id="2、按左键-选择”Boot“"><a href="#2、按左键-选择”Boot“" class="headerlink" title="2、按左键 选择”Boot“"></a>2、按左键 选择”Boot“</h3><p><img src="/post/undefined.htm/image-20221018121121578.png" alt="BP"></p><h3 id="3、把”Hard-Drive”放在第一位，关机重启"><a href="#3、把”Hard-Drive”放在第一位，关机重启" class="headerlink" title="3、把”Hard Drive”放在第一位，关机重启"></a>3、把”Hard Drive”放在第一位，关机重启</h3><p><img src="/post/undefined.htm/image-20221018121156701.png" alt="BP"></p><h3 id="4、成功进入界面！"><a href="#4、成功进入界面！" class="headerlink" title="4、成功进入界面！"></a><a href>4</a>、成功进入界面！</h3><p><img src="/post/undefined.htm/image-20221018000531116.png" alt="BP"></p>]]></content>
       
@@ -49,8 +49,8 @@
     
     <entry>
       <title>hexo搭配typora写博客上传图片</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2022/10/18/hexo%E6%90%AD%E9%85%8Dtypora%E5%86%99%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/"/>
+      <url>/2022/10/18/hexo%E6%90%AD%E9%85%8Dtypora%E5%86%99%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/</url>
       
         <content type="html"><![CDATA[<p> 一、到博客的根目录下执行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install [https://github.com/CodeFalling/hexo-asset-image]--save </span><br></pre></td></tr></table></figure><p>命令来进行插件的安装。</p><p>二、到博客根目录下查看_config.yml 文件将post_asset_folder 设置为true </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder:true</span><br></pre></td></tr></table></figure><p>三、在博客跟目录下生成文章</p><p>​</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;XXXX&quot;</span><br></pre></td></tr></table></figure><p><img src="/post/undefined.htm/1.png" alt="BP"></p><p>此时会看到同时生成了.md文件和同名的文件夹，文件夹内就存放博客所需的本地图片</p><p><img src="/post/undefined.htm/3.png" alt="BP"></p><p><img src="/post/undefined.htm/2.png" alt="BP"></p><p>四、图片书写格式如下</p><p><img src="/post/undefined.htm/4.png" alt="BP"></p><p>五、最后hexo g ,hexo s本地预览，确认无误后hxeo d上传。</p>]]></content>
       
@@ -74,8 +74,8 @@
     
     <entry>
       <title>python笔记</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2022/10/13/python/"/>
+      <url>/2022/10/13/python/</url>
       
         <content type="html"><![CDATA[<p>在vscode使用jieba函数库的时候出现以下代码，但是可以正常剪切<br>Building prefix dict from the default dictionary …<br>Loading model from cache C:\Users\ALANIN~1\AppData\Local\Temp\jieba.cache<br>Loading model cost 0.445 seconds.<br>Prefix dict has been built successfully.</p><p>需要在下面添加一行代码组织上面的代码出现<br>import jieba<br>jieba.setLogLevel(jieba.logging.INFO)</p>]]></content>
       
@@ -93,8 +93,8 @@
     
     <entry>
       <title>网关</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2022/08/24/%E7%BD%91%E5%85%B3-%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+      <url>/2022/08/24/%E7%BD%91%E5%85%B3-%E8%B7%AF%E7%94%B1%E5%99%A8/</url>
       
         <content type="html"><![CDATA[<p>模仿</p><h3 id="网关"><a href="#网关" class="headerlink" title="网关"></a>网关</h3><p>一个网络的出口，Gatewa&#x3D;GW，一般是在路由器上</p><h3 id="路由器"><a href="#路由器" class="headerlink" title="路由器"></a>路由器</h3><p>可以连接内外网的设备</p>]]></content>
       
@@ -106,8 +106,8 @@
     
     <entry>
       <title>win2003 和 xp 下载及激活</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2022/08/24/VMWARE%E9%83%A8%E7%BD%B2/"/>
+      <url>/2022/08/24/VMWARE%E9%83%A8%E7%BD%B2/</url>
       
         <content type="html"><![CDATA[<h4 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h4><p>2个win2003 ：windows Server 2003 Enterprise Edition<br>提供百度云盘下载链接  <a href="http://pan.baidu.com/s/1pKL9pwf">http://pan.baidu.com/s/1pKL9pwf</a></p><h5 id="2003序列号："><a href="#2003序列号：" class="headerlink" title="2003序列号："></a>2003序列号：</h5><p>MPQ6X-3MCCF-47H9T-TKC2F-T69WM<br>FGJCG-8Q883-MQPRF-W8FDB-QPV3Y<br>GGH24-F94R6-XJPR9-FW9XQ-DBDHM<br>BRKX3-BB88X-GP7VW-HYQJR-C7QHM<br>HYDGJ-3WY89-YJB68-H2DV2-BYT7M<br>BPQBT-4MTVT-CDQGB-BGVFP-MK8YB      √测试通过<br>FWRB6-WVPJW-HB6Q7-2MTYK-M8BQY<br>PR86X-KWMQK-6CJVG-RCXFX-WWKWM<br>PGCFX-RGRGX-VFHRX-WT6TJ-QVFFY<br>F8QV3-BTYMR-V4GHX-B43FM-DY6CB<br>MXC6T-JW7WQ-DY7H3-F8JV7-V9XWM<br>DR7QV-WQDC8-G4DP9-9TY2P-Y9CPB<br>HWX9H-KVPMC-3W2DJ-P2392-K9G8M</p><h5 id="————————————————"><a href="#————————————————" class="headerlink" title="————————————————"></a>————————————————</h5><h6 id="2个winxp：专业版本"><a href="#2个winxp：专业版本" class="headerlink" title="2个winxp：专业版本"></a>2个winxp：专业版本</h6><h6 id="Windows-XP专业版最新安装码"><a href="#Windows-XP专业版最新安装码" class="headerlink" title="Windows XP专业版最新安装码"></a>Windows XP专业版最新安装码</h6><p>MRX3F-47B9T-2487J-KWKMF-RPWBY<br>HTXH6-2JJC4-CDB6C-X38B4-C3GF3<br>RT4H2-8WYHG-QKK6K-WWHJ2-9427X<br>DYPVX-43TRT-YDBGB-7YQJX-CWXW7<br>HGM7B-YF7T7-8R7RF-Y6RPY-XTQ77<br>DJQJB-PC83T-FTGJC-CQTCK-RJD8D<br>VMMBM-8WK8W-H44YH-37B4M-KX8QR<br>XRCTF-Y68KJ-VVFTR-7BDFP-4PW7G<br>6RV7B-FYWR2-PW3C6-DDWDR-68X9C<br>KYMTD-BV7KP-RRM33-P3XKJ-RDKVD<br>X3WYK-H7CR8-KQBMV-7DP6X-W6YQQ<br>CQWK3-CCYJY-TQDFV-2HJDR-W3B2M<br>2RXYJ-VQWXM-J2V2R-CVXQT-Y6MPY<br>X7TVH-VJTFG-BK22B-XXG6D-27326<br>VYGXV-YM8VB-4RVQX-QXBMX-G3WV7</p><h6 id="WindowsXP可以无限次激活的密钥"><a href="#WindowsXP可以无限次激活的密钥" class="headerlink" title="WindowsXP可以无限次激活的密钥"></a>WindowsXP可以无限次激活的密钥</h6><p>CXGDD-GP2B2-RKWWD-HG3HY-VDJ7J<br>RK7J8-2PGYQ-P47VV-V6PMB-F6XPQ</p><h6 id="万能XP-sp2-CD-KEY，适用SP2"><a href="#万能XP-sp2-CD-KEY，适用SP2" class="headerlink" title="万能XP sp2 CD-KEY，适用SP2"></a>万能XP sp2 CD-KEY，适用SP2</h6><p>DG8FV-B9TKY-FRT9J-6CRCC-XPQ4G</p><p> 序列号收集于网络，侵删</p>]]></content>
       
@@ -125,8 +125,8 @@
     
     <entry>
       <title>VMmare workstation16下载及激活</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2022/08/23/VM16Pro%E4%B8%8B%E8%BD%BD/"/>
+      <url>/2022/08/23/VM16Pro%E4%B8%8B%E8%BD%BD/</url>
       
         <content type="html"><![CDATA[<hr><p>下载地址：<a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html</a></p><h5 id="秘钥"><a href="#秘钥" class="headerlink" title="秘钥"></a>秘钥</h5><p>tips：重启系统后进入VM，提示需要输入激活码，把激活码复制进去就能使用了</p><h6 id="VM16激活码："><a href="#VM16激活码：" class="headerlink" title="VM16激活码："></a>VM16激活码：</h6><p>ZF3R0-FHED2-M80TY-8QYGC-NPKYF<br>YF390-0HF8P-M81RQ-2DXQE-M2UT6<br>ZF71R-DMX85-08DQY-8YMNC-PPHV8<br>此激活码收集于网络</p>]]></content>
       
@@ -144,8 +144,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2022/08/20/hello-world/"/>
+      <url>/2022/08/20/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
@@ -157,8 +157,8 @@
     
     <entry>
       <title>c语言报错1</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2021/11/28/c%E8%AF%AD%E8%A8%80%E6%8A%A5%E9%94%991/"/>
+      <url>/2021/11/28/c%E8%AF%AD%E8%A8%80%E6%8A%A5%E9%94%991/</url>
       
         <content type="html"><![CDATA[<p>c语言报错<br>lvalue required as left operand of assignment<br>翻译为：<br>赋值的左操作数需要左值<br>原因：<br>计算值为 &#x3D;&#x3D; 或 ！&#x3D;</p><p>变量赋值为 &#x3D;</p><p>赋值语句的左边应该是变量，不能是表达式。而实际上，这里是一个比较表达式，所以要把赋值号（＝）改用关系运算符（＝＝）<br>例如<br>if((a%7&#x3D;0)&amp;&amp;(a%3&#x3D;0))<br>改正为<br>if((a%7&#x3D;&#x3D;0)&amp;&amp;(a%3&#x3D;&#x3D;0))</p>]]></content>
       
@@ -170,8 +170,8 @@
     
     <entry>
       <title>sql随记</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2021/11/20/sql/"/>
+      <url>/2021/11/20/sql/</url>
       
         <content type="html"><![CDATA[<p>SQL注入原理<br>SQL注入攻击是通过将恶意的SQL查询或添加语句插入到应用的输入参数中，再在后台SQL服务器上解析执行进行的攻击，它目前是黑客对数据库进行攻击的最常用的手段之一。</p><p>SQL注入点<br>注入点可分为两大类: 数字型 和 字符型 </p><p>其中字符型又可以细分为 单引号字符型 , 双引号字符型 , 单&#x2F;双引号+括号的字符型</p><p>数字型注入</p><p>SQL语句拼接参数时 , 直接拼接参数本身 , 格式如下</p><p>SELECT * FROM users WHERE id&#x3D;$id<br>字符型注入</p><p>SQL语句拼接参数时 , 对参数包裹了单引号,双引号,或括号</p><p>单引号字符型 : 参数包裹了单引号 , 格式如下</p><p>SELECT * FROM users WHERE id&#x3D;’$id’<br> 单引号+括号字符型 : 参数包裹了单引号和括号 , 格式如下</p><p>SELECT * FROM users WHERE id&#x3D;(‘$id’)<br>双引号+括号字符型 : 参数包裹了双引号和括号 , 格式如下</p><p>$id &#x3D; ‘“‘ . $id . ‘“‘;<br>SELECT * FROM users WHERE id&#x3D;($id)<br> 字符型注入并非只有这三种 , SQL语句中可以将单引号,双引号,括号自由拼接</p><p>报错注入<br>把我们想要的内容以报错的的形式展示出来 。<br>函数：<br>1.extractvalue(目标xml文档，xml路径)<br>！路径不能出现非法路径，否则会报错！<br>select extractvalue(1,0x7e) 0x7e十六进制是‘<del>’<br>只要让他去报错就行。<br>2.concat():将多个字符串连接成一个字符串<br>语法：concat（str1,str2,…）<br>select contact(‘</del>‘,(select database()))</p><p>select extractvalue(1,concat(1,select datebase()))</p>]]></content>
       
@@ -189,8 +189,8 @@
     
     <entry>
       <title>基本的Dos命令</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2021/10/31/%E5%9F%BA%E6%9C%AC%E7%9A%84Dos%E5%91%BD%E4%BB%A4/"/>
+      <url>/2021/10/31/%E5%9F%BA%E6%9C%AC%E7%9A%84Dos%E5%91%BD%E4%BB%A4/</url>
       
         <content type="html"><![CDATA[<p>基本的DOS命令（磁盘操作系统）<br>1.|（空格）more  #将文件翻页显示 按空格翻页。<br>2.type 文件名.扩展名 | more 查看命令<br>3.dir c:\windows | more #查看c盘window目录下有什么文件。<br>4.echo创建文件<br>5.copy con(屏幕) qingshu.txt<br>..&#x2F;内容<br>CTRL+Z回车 结束命令<br>6.del 文件名.扩展名 #删除文件<br>7.del *.txt #删除.txt所有文件<br>  del <em>.</em> #删除所有文件<br> &#x2F;s &#x2F;q递增删除 逐级删除<br>8.md 文件名 #创建文件夹<br>9.attrib +h 文件名 #隐藏文件夹h(h hide)<br>   attrib -h 文件名 #取消隐藏<br>   attrib +h +s +a #<br>10.dir &#x2F;a 文件名 #浏览所有文件  dir也行<br>11.fsutill file creatnew d:\system.ini 230040304 #在d盘目录下快速创建一个230040304字节的 system.ini文件<br>12.assoc .txt&#x3D;exefile #修改关联性 将.txt文件修改为 .exe文件<br>    assoc .txt&#x3D;txtfile #修改回原来的关联性<br>13.shutdown -s -t 100 #100s后关机 定时关机<br>     shutdown -s -f -t 时间 -c “字符” #定时强制关机-c输入提示<br>     shutdown -r -t 时间 #定时重启，同时加-f，为强制关机<br>     shutdown -l #注销，通logoft命令相同<br>     shutdown -a#取消一切计时<br>14.copy .txt<br>15.ren 旧名. 新名 #重命名<br>16.d: #从c盘进入d盘<br>    cd a#从当前目录下进入a文件夹</p><pre><code> cd D:\文件名 \ 文件名 #指定去具体的文件下。</code></pre><p>copy haha.txt ..\b<br>百度：<br>将当前目录下的 1.txt 这个文件复制到 bak 目录下，并且更名为 a.txt，就输入 copy 1.txt bak\a.txt<br>将当前目录下的 1.txt 文件复制到 bak 目录下，就输入 copy 1.txt bak\</p>]]></content>
       
@@ -202,8 +202,8 @@
     
     <entry>
       <title>ip地址 dns初了解</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2021/10/28/ip%E5%9C%B0%E5%9D%80-dns%E5%88%9D%E4%BA%86%E8%A7%A3/"/>
+      <url>/2021/10/28/ip%E5%9C%B0%E5%9D%80-dns%E5%88%9D%E4%BA%86%E8%A7%A3/</url>
       
         <content type="html"><![CDATA[<p>测试网络连通性（测试对方网络是否在线）<br>ping 目标ip地址          #测试网络连通性，有去有回可以成功通信！<br>ping -t 目标ip地址      #一直ping<br>ping -n 数字 目标Ip地址 #修改ping包的数量<br>ping -l 数字  #修改ping包的大小<br>以上ping后有空格<br>ps：如果ping不通，不一定是网络问题，可能是对方不在线，或者对方开着防火墙。</p><p>nslookup <a href="http://www.jd.com/">www.jd.com</a> #查新域名对应的ip地址<br>nslookup -qt&#x3D;ns <a href="http://www.xxxx.com/">www.XXXX.com</a> #查询域名使用的是哪一家DNS服务器<br>命令：ipconfig #查看ip基本信息<br>ipconfig  &#x2F;all #可以看到所有详细信息（DNS）</p>]]></content>
       
@@ -215,8 +215,8 @@
     
     <entry>
       <title>20220820测试</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2021/10/22/20220820/"/>
+      <url>/2021/10/22/20220820/</url>
       
         <content type="html"><![CDATA[<p>20220820测试</p>]]></content>
       
@@ -228,8 +228,8 @@
     
     <entry>
       <title>常用的Hexo指令</title>
-      <link href="/post/undefined.html"/>
-      <url>/post/undefined.html</url>
+      <link href="/2021/10/22/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2021/10/22/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
       
         <content type="html"><![CDATA[<p>hexo安装<br>1 npm install hexo -g #安装<br>2 npm update hexo -g #升级<br>3 hexo init #初始化<br>简写<br>1 hexo n “我的博客” &#x3D;&#x3D; hexo new “我的博客” #新建文章<br>2 hexo p &#x3D;&#x3D; hexo publish<br>3 hexo g &#x3D;&#x3D; hexo generate#生成<br>4 hexo s &#x3D;&#x3D; hexo server #启动服务预览<br>5 hexo d &#x3D;&#x3D; hexo deploy#部署<br>服务器</p><p>复制代码<br>1 hexo server #Hexo 会监视文件变动并自动更新，】无须重启服务器。<br>2 hexo server -s #静态模式<br>3 hexo server -p 5000 #更改端口<br>4 hexo server -i 192.168.1.1 #自定义 IP<br>5 hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>6 hexo g #生成静态网页<br>7 hexo d #开始部署<br>复制代码<br>监视文件变动<br>1 hexo generate #使用 Hexo 生成静态文件快速而且简单<br>2 hexo generate –watch #监视文件变动<br>完成后部署<br>1 # 两个命令的作用是相同的<br>2 hexo generate –deploy<br>3 hexo deploy –generate<br>4 hexo deploy -g<br>5 hexo server -g</p><p>复制代码<br>1 hexo new “postName” #新建文章，注意要带双引号！！！！！<br>2 hexo new page “pageName” #新建页面<br>3 hexo generate #生成静态页面至public目录<br>4 hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>5 hexo deploy #将.deploy目录部署到GitHub<br>6 hexo new [layout] <title>;<br>7 hexo new photo “My Gallery”<br>8 hexo new “Hello World” –lang tw<br>复制代码</title></p><p>图片<br>复制代码<br>1 title: 使用Hexo搭建个人博客<br>2 layout: post<br>3 date: 2016-12-21 19:07:43<br>4 comments: true<br>5 categories: Blog<br>6 tags: [Hexo]<br>7 keywords: Hexo, Blog<br>8 description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。<br>推送到服务器上<br>1 hexo n #写文章<br>2 hexo g #生成<br>3 hexo d #部署 #可与hexo g合并为 hexo d -g</p><p>1 npm install hexo-generator-feed –save<br>开启RSS功能 </p><p>编辑hexo&#x2F;_config.yml，添加如下代码：</p><p>1 rss: &#x2F;atom.xml #rss地址 默认即可</p>]]></content>
       
