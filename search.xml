@@ -384,15 +384,17 @@
     
     
     <entry>
-      <title>VMmare workstation16下载及激活</title>
+      <title>VMmare workstation下载及激活</title>
       <link href="/2022/08/23/VM16Pro%E4%B8%8B%E8%BD%BD/"/>
       <url>/2022/08/23/VM16Pro%E4%B8%8B%E8%BD%BD/</url>
       
-        <content type="html"><![CDATA[<hr><p>下载地址：<a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html</a></p><h5 id="秘钥"><a href="#秘钥" class="headerlink" title="秘钥"></a>秘钥</h5><p>tips：重启系统后进入VM，提示需要输入激活码，把激活码复制进去就能使用了</p><h6 id="VM16激活码："><a href="#VM16激活码：" class="headerlink" title="VM16激活码："></a>VM16激活码：</h6><p>ZF3R0-FHED2-M80TY-8QYGC-NPKYF<br>YF390-0HF8P-M81RQ-2DXQE-M2UT6<br>ZF71R-DMX85-08DQY-8YMNC-PPHV8<br>此激活码收集于网络</p>]]></content>
+        <content type="html"><![CDATA[<hr><p>下载地址：<a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html</a></p><h5 id="秘钥"><a href="#秘钥" class="headerlink" title="秘钥"></a>秘钥</h5><p>tips：重启系统后进入VM，提示需要输入激活码，把激活码复制进去就能使用了</p><h5 id="VM16激活码："><a href="#VM16激活码：" class="headerlink" title="VM16激活码："></a>VM16激活码：</h5><p>ZF3R0-FHED2-M80TY-8QYGC-NPKYF<br>YF390-0HF8P-M81RQ-2DXQE-M2UT6<br>ZF71R-DMX85-08DQY-8YMNC-PPHV8</p><h5 id="VM17激活码："><a href="#VM17激活码：" class="headerlink" title="VM17激活码："></a>VM17激活码：</h5><p>JU090-6039P-08409-8J0QH-2YR7</p><p>此激活码收集于网络</p>]]></content>
       
       
       
         <tags>
+            
+            <tag> 安装教程 </tag>
             
             <tag> 虚拟机 </tag>
             
