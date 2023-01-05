@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>xshell 连接 kali（必备技能）</title>
+      <link href="/2023/01/05/xshell-%E8%BF%9E%E6%8E%A5-kali%EF%BC%88%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%EF%BC%89/"/>
+      <url>/2023/01/05/xshell-%E8%BF%9E%E6%8E%A5-kali%EF%BC%88%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h4 id="检查ssh状态"><a href="#检查ssh状态" class="headerlink" title="检查ssh状态"></a>检查ssh状态</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 检查kali的ssh协议是否打开</span></span><br><span class="line">$ service ssh status</span><br></pre></td></tr></table></figure><p><img src="/2023/01/05/xshell-%E8%BF%9E%E6%8E%A5-kali%EF%BC%88%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%EF%BC%89/Blog_\source_posts\xshell-连接-kali（必备技能）\image-20230105234306760.png" alt="image-20230105234306760"></p><p>如图所示，显示<code>inactive</code>即ssh没有打开，则我们要先打开ssh协议。</p><p>输入命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ service ssh start</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 再次检查kali的ssh协议是否打开</span></span><br><span class="line">$ service ssh status</span><br></pre></td></tr></table></figure><p><img src="/2023/01/05/xshell-%E8%BF%9E%E6%8E%A5-kali%EF%BC%88%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%EF%BC%89/Blog_\source_posts\xshell-连接-kali（必备技能）\image-20230105234534913.png" alt="image-20230105234534913"></p><p>如上图所示，ssh协议打开了。</p><h4 id="修改KALI文件配置"><a href="#修改KALI文件配置" class="headerlink" title="修改KALI文件配置"></a>修改KALI文件配置</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure><p>找到PermitRootLogin这一行，然后去掉其前面的注释符号，再将后面的prohibit-passwd改成yes。</p><p><img src="/2023/01/05/xshell-%E8%BF%9E%E6%8E%A5-kali%EF%BC%88%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%EF%BC%89/Blog_\source_posts\xshell-连接-kali（必备技能）\image-20230105234930603.png" alt="image-20230105234930603"></p><p><img src="/2023/01/05/xshell-%E8%BF%9E%E6%8E%A5-kali%EF%BC%88%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%EF%BC%89/Blog_\source_posts\xshell-连接-kali（必备技能）\image-20230105235054192.png" alt="image-20230105235054192"></p><p>esc+:+wq保存退出。</p><h4 id="连接kali"><a href="#连接kali" class="headerlink" title="连接kali"></a>连接kali</h4><p>终端输入<code>ifconfig</code>查看kali的ip</p><img src="/2023/01/05/xshell-%E8%BF%9E%E6%8E%A5-kali%EF%BC%88%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%EF%BC%89/Blog_\source\_posts\xshell-连接-kali（必备技能）\image-20230105235305881.png" alt="image-20230105235305881" style="zoom:67%;"><p>将IP输入至xshell并输入密码。</p><img src="/2023/01/05/xshell-%E8%BF%9E%E6%8E%A5-kali%EF%BC%88%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%EF%BC%89/Blog_\source\_posts\xshell-连接-kali（必备技能）\image-20230105235351678.png" alt="image-20230105235351678" style="zoom:67%;"><img src="/2023/01/05/xshell-%E8%BF%9E%E6%8E%A5-kali%EF%BC%88%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%EF%BC%89/Blog_\source\_posts\xshell-连接-kali（必备技能）\image-20230105235500040.png" alt="image-20230105235500040" style="zoom:67%;"><p>设置好后点击连接，此时弹出SSH安全警告，这里我们选择“接受并保存”。</p><img src="/2023/01/05/xshell-%E8%BF%9E%E6%8E%A5-kali%EF%BC%88%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%EF%BC%89/Blog_\source\_posts\xshell-连接-kali（必备技能）\image-20230105235557498.png" alt="image-20230105235557498" style="zoom:67%;"><p>连接成功</p><img src="/2023/01/05/xshell-%E8%BF%9E%E6%8E%A5-kali%EF%BC%88%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%EF%BC%89/Blog_\source\_posts\xshell-连接-kali（必备技能）\image-20230105235855146.png" alt="image-20230105235855146" style="zoom:67%;">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> xshell </tag>
+            
+            <tag> kali </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java环境配置</title>
       <link href="/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
       <url>/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
