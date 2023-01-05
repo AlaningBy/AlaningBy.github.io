@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>Java环境配置</title>
+      <link href="/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+      <url>/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<h4 id="下载和安装"><a href="#下载和安装" class="headerlink" title="下载和安装"></a>下载和安装</h4><p>打开链接<a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a></p><p>选择JDK11，x64 installer下载</p><p>没有注册Oracle的账号要注册，或者直接百度Oracle共享账号（网上一大堆）</p><p><img src="/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20230104223921395.png" alt="image-20230104223921395"></p><p>下载好后单击打开执行文件</p><p><img src="/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20230104224151450.png" alt="image-20230104224151450"></p><p>下一步</p><p><img src="/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20230104224223845.png" alt="image-20230104224223845"></p><p>路径我选择默认，一直下一步直到安装完成。</p><h4 id="环境变量配置"><a href="#环境变量配置" class="headerlink" title="环境变量配置"></a>环境变量配置</h4><p><img src="/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20230104224352989.png" alt="image-20230104224352989"></p><p>点击系统变量的新建</p><p><img src="/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20230104224616369.png" alt="image-20230104224616369"></p><p>变量名命名为<code>JAVA_HOME</code></p><p>如果你和我下载的是同一个版本，变量值直接复制这个即可<code>C:\Program Files\Java\jdk-11.0.17</code></p><p><img src="/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20230104224519862.png" alt="image-20230104224519862"></p><p>如果不是，请打开你的在安装时的路径并复制进去保存。<img src="/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20230104224915869.png" alt="image-20230104224915869"></p><p>接下来双击系统变量中的Path</p><p><img src="/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20230104225121438.png" alt="image-20230104225121438"></p><p>新建两个变量</p><p><code>%JAVA_HOME%\jre\bin</code></p><p><code>%JAVA_HOME%\bin</code></p><p><img src="/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20230104225218565.png" alt="image-20230104225218565"></p><p>确认保存即可。</p><h4 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h4><p>win+R输入cmd回车</p><p><code>java -version</code></p><p><img src="/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20230104225504661.png" alt="image-20230104225504661"></p><p><code>javac -version</code></p><p><img src="/2023/01/04/Java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Users\AlaningBy\AppData\Roaming\Typora\typora-user-images\image-20230104225543023.png" alt="image-20230104225543023"></p><p>出现这两个版本信息代表成功配置好了JAVA环境。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 安装教程 </tag>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>DVWA配置中可能会碰到的问题</title>
       <link href="/2023/01/02/DVWA%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%8F%AF%E8%83%BD%E4%BC%9A%E7%A2%B0%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/"/>
       <url>/2023/01/02/DVWA%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%8F%AF%E8%83%BD%E4%BC%9A%E7%A2%B0%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
